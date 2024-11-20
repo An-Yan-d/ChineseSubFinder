@@ -44,7 +44,7 @@ jobs:
             -v $(pwd)/go:/root/go \
             -v $(pwd)/lite-make.sh:/init.sh \
             --entrypoint "/init.sh" \
-            nevinee/csf-cross-builder
+            docker.io/nevinee/csf-cross-builder:latest
 
       - name: Docker Buildx Latest Image
         if: "!contains(steps.prepare.outputs.version, 'Beta')"
