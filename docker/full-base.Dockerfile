@@ -35,5 +35,5 @@ RUN apt-get update \
        /tmp/* \
        /var/lib/apt/lists/* \
        /var/tmp/*
-COPY --from=nevinee/s6-overlay:2.2.0.3-bin-is-softlink / /
+COPY --from=serversideup/s6-overlay / /
 
