@@ -3,7 +3,7 @@ package language
 import (
 	"strings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
 )
 
 // LangConverter4Sub_Supplier 语言转换器，给字幕的提供者实例解析使用（xunlei、zimuku等）

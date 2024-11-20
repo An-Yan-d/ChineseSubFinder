@@ -4,17 +4,17 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/media_info_dealers"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/media_info_dealers"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/ifaces"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/emby"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/series"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/ifaces"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/emby"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/series"
 
-	movieHelper "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/movie_helper"
-	seriesHelper "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/series_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
+	movieHelper "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/movie_helper"
+	seriesHelper "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/series_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/errgo.v2/fmt/errors"
 )

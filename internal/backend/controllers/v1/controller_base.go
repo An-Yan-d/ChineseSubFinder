@@ -1,19 +1,19 @@
 package v1
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/hls_center"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/hls_center"
 	"net/http"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/video_list_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/video_list_helper"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/lock"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/cron_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/lock"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/cron_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

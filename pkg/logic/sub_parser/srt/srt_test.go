@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
 
-	lan "github.com/ChineseSubFinder/ChineseSubFinder/pkg/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/unit_test_helper"
+	lan "github.com/An-Yan-d/ChineseSubFinder/pkg/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/unit_test_helper"
 )
 
 func TestParser_DetermineFileType(t *testing.T) {

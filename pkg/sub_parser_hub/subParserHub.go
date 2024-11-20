@@ -6,13 +6,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/ifaces"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	languageConst "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/ifaces"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	languageConst "github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/filter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/filter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/language"
 	"github.com/sirupsen/logrus"
 )
 

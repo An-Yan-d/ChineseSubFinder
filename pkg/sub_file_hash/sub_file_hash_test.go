@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/unit_test_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/unit_test_helper"
 )
 
 func TestCalculate(t *testing.T) {

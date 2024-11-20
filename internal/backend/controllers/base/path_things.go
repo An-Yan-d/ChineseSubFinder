@@ -3,12 +3,12 @@ package base
 import (
 	"net/http"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	backend2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	backend2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/emby_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/emby_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	"github.com/gin-gonic/gin"
 )
 

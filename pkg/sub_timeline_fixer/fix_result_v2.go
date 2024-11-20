@@ -3,7 +3,7 @@ package sub_timeline_fixer
 import (
 	"sync"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
 	"github.com/emirpasic/gods/maps/treemap"
 	"github.com/grd/stat"
 )

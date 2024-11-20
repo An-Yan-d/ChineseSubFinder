@@ -9,9 +9,9 @@ import (
 
 	"gorm.io/gorm/logger"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

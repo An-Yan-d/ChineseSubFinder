@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/random_auth_key"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/random_auth_key"
 )
 
 type SubtitleBestApi struct {

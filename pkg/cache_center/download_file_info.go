@@ -7,13 +7,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/supplier"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/supplier"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/cache_center/models"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/cache_center/models"
 )
 
 func (c *CacheCenter) DownloadFileAdd(subInfo *supplier.SubInfo) error {

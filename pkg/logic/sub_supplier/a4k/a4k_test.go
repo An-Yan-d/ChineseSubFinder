@@ -4,21 +4,21 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/media_info_dealers"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/subtitle_best_api"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/media_info_dealers"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/subtitle_best_api"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/series_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/unit_test_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/series_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/unit_test_helper"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/cache_center"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/random_auth_key"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/cache_center"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/random_auth_key"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 )
 
 func TestSupplier_searchKeyword(t *testing.T) {

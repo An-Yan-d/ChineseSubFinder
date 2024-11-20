@@ -2,19 +2,19 @@ package backend
 
 import (
 	"fmt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/pre_job"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/pre_job"
 	"net/http"
 
 	"github.com/arl/statsviz"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/tmdb_api"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/tmdb_api"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/backend/controllers/base"
-	v1 "github.com/ChineseSubFinder/ChineseSubFinder/internal/backend/controllers/v1"
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/backend/middle"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/cron_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/backend/controllers/base"
+	v1 "github.com/An-Yan-d/ChineseSubFinder/internal/backend/controllers/v1"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/backend/middle"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/cron_helper"
 	"github.com/gin-gonic/gin"
 )
 

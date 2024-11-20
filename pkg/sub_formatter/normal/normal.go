@@ -5,16 +5,16 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	language2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
+	language2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_parser/ass"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_parser/srt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_parser_hub"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_parser/ass"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_parser/srt"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_parser_hub"
 	"github.com/sirupsen/logrus"
 )
 

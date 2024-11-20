@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/regex_things"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/regex_things"
 	"github.com/sirupsen/logrus"
 )
 

@@ -3,7 +3,7 @@ package worker
 import (
 	"crypto/sha1"
 	"fmt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/cmdutil"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/cmdutil"
 	"io"
 	"os/exec"
 )

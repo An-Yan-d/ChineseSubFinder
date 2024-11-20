@@ -3,9 +3,9 @@ package base
 import (
 	"net/http"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/emby_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	backend2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/emby_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	backend2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 	"github.com/gin-gonic/gin"
 )
 

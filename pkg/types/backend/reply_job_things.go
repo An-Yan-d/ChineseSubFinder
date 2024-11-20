@@ -1,7 +1,7 @@
 package backend
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/task_queue"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/task_queue"
 )
 
 type ReplyJobThings struct {

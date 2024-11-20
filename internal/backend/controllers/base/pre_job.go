@@ -1,8 +1,8 @@
 package base
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_and_notifi"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_and_notifi"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

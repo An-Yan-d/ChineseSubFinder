@@ -1,9 +1,9 @@
 package same_as_video_name
 
 import (
-	subCommon "github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
+	subCommon "github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
 	"github.com/WQGroup/logger"
 	"path/filepath"
 	"testing"

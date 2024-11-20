@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	task_queue2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/task_queue"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	task_queue2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/task_queue"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/cache_center"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/cache_center"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
 )
 
 const taskQueueName = "testQueue"

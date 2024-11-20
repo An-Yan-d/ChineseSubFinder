@@ -3,12 +3,12 @@ package subtitle_best_api
 import (
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/random_auth_key"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/random_auth_key"
 )
 
 func TestSubtitleBestApi_GetMediaInfo(t *testing.T) {

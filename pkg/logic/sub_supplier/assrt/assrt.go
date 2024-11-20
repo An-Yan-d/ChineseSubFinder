@@ -10,20 +10,20 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	common2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/series"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/supplier"
+	common2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/series"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/supplier"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/mix_media_info"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/mix_media_info"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/notify_center"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/notify_center"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	"github.com/sirupsen/logrus"
 )
 

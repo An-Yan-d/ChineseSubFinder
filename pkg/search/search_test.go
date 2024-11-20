@@ -3,7 +3,7 @@ package search
 import (
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
 )
 
 func TestSearchSeriesAllEpsAndSubtitles(t *testing.T) {

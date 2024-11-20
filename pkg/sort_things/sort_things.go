@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
 )
 
 type PathSlice struct {

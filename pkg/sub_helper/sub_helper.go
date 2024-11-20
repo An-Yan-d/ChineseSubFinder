@@ -9,19 +9,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/supplier"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/supplier"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/archive_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/filter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/regex_things"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_parser_hub"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/vad"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/archive_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/filter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/regex_things"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_parser_hub"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/vad"
 	"github.com/sirupsen/logrus"
 )
 

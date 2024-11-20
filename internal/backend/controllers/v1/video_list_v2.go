@@ -5,15 +5,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/search"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/search"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/path_helper"
-	backend2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
-	vsh "github.com/ChineseSubFinder/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/path_helper"
+	backend2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
+	vsh "github.com/An-Yan-d/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 )

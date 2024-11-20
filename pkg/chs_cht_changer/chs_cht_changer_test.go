@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/change_file_encode"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/unit_test_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/change_file_encode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/unit_test_helper"
 )
 
 func TestProcess(t *testing.T) {

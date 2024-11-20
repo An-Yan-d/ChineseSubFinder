@@ -4,14 +4,14 @@ import (
 	"errors"
 	"os"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/search"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/search"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	movieHelper "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/movie_helper"
-	seriesHelper "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/series_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter/old"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
+	movieHelper "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/movie_helper"
+	seriesHelper "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/series_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter/old"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
 	"github.com/sirupsen/logrus"
 )
 

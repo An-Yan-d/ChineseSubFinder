@@ -1,22 +1,22 @@
 package search
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
 	"io/fs"
 	"os"
 	"path/filepath"
 	"strconv"
 	"strings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_parser_hub"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_parser_hub"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/filter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sort_things"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/filter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sort_things"
 	"github.com/emirpasic/gods/maps/treemap"
 	"github.com/sirupsen/logrus"
 )

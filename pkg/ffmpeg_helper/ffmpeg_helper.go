@@ -9,16 +9,16 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_parser/ass"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_parser/srt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_parser_hub"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_parser/ass"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_parser/srt"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_parser_hub"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 

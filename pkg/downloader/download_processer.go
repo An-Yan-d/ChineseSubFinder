@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	taskQueue2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/task_queue"
+	taskQueue2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/task_queue"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/series_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/series_helper"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/task_queue"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/task_queue"
 	"golang.org/x/net/context"
 )
 

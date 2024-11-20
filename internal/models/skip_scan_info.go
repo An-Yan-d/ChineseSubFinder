@@ -3,7 +3,7 @@ package models
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
 	"github.com/WQGroup/logger"
 	PTN "github.com/middelink/go-parse-torrent-name"
 	"path/filepath"

@@ -3,8 +3,8 @@ package series_helper
 import (
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/unit_test_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/unit_test_helper"
 )
 
 func TestReadSeriesInfoFromDir(t *testing.T) {

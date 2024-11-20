@@ -3,17 +3,17 @@ package mix_media_info
 import (
 	"errors"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/media_info_dealers"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/media_info_dealers"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
 	"gorm.io/gorm"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/dao"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/dao"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/imdb_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/imdb_helper"
 )
 
 func GetMixMediaInfo(

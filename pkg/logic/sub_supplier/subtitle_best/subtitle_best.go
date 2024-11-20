@@ -1,14 +1,14 @@
 package subtitle_best
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/mix_media_info"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	common2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/series"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/supplier"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/mix_media_info"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	common2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/series"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/supplier"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"time"

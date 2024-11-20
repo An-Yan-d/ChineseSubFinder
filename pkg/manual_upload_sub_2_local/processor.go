@@ -3,19 +3,19 @@ package manual_upload_sub_2_local
 import (
 	"sync"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/scan_logic"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/scan_logic"
 	"github.com/pkg/errors"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/save_sub_helper"
-	subCommon "github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/save_sub_helper"
+	subCommon "github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter/common"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_parser/ass"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_parser/srt"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_parser/ass"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_parser/srt"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_parser_hub"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_parser_hub"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_helper"
 
 	"github.com/sirupsen/logrus"
 

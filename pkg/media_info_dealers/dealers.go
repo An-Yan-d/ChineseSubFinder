@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/models"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/subtitle_best_api"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/tmdb_api"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/models"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/subtitle_best_api"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/tmdb_api"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

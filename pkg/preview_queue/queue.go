@@ -7,11 +7,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/ffmpeg_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/ffmpeg_helper"
 	llq "github.com/emirpasic/gods/queues/linkedlistqueue"
 	"github.com/emirpasic/gods/sets/hashset"
 	"github.com/sirupsen/logrus"

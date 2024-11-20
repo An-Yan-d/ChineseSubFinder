@@ -2,7 +2,7 @@ package subtitle_best
 
 import (
 	"encoding/json"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
 	"github.com/go-resty/resty/v2"
 	"strconv"
 )

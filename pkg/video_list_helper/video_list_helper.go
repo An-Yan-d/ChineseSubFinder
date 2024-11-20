@@ -3,12 +3,12 @@ package video_list_helper
 import (
 	"sync"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/search"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/search"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	vsh "github.com/ChineseSubFinder/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	vsh "github.com/An-Yan-d/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
 
-	seriesHelper "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/series_helper"
+	seriesHelper "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/series_helper"
 	"github.com/sirupsen/logrus"
 )
 

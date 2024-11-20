@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
 
 	"github.com/beevik/etree"
 	PTN "github.com/middelink/go-parse-torrent-name"

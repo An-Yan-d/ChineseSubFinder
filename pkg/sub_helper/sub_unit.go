@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/vad"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/vad"
 )
 
 type SubUnit struct {

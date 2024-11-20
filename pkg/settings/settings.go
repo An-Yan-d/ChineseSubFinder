@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/strcut_json"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/strcut_json"
 )
 
 type Settings struct {

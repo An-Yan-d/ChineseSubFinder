@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

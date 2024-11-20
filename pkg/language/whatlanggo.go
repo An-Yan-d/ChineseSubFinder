@@ -1,8 +1,8 @@
 package language
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
 	"github.com/abadojack/whatlanggo"
 )
 

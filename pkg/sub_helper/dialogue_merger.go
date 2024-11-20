@@ -1,7 +1,7 @@
 package sub_helper
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
 )
 
 // DialogueMerger 合并分散的对白，目标是搞定英文字幕

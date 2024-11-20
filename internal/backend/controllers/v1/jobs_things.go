@@ -8,13 +8,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	backend2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	task_queue3 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/task_queue"
+	backend2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	task_queue3 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/task_queue"
 
-	task_queue2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/task_queue"
+	task_queue2 "github.com/An-Yan-d/ChineseSubFinder/pkg/task_queue"
 	"github.com/gin-gonic/gin"
 )
 

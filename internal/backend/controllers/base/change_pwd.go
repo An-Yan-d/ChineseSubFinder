@@ -3,10 +3,10 @@ package base
 import (
 	"net/http"
 
-	backend2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	backend2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	"github.com/gin-gonic/gin"
 )
 

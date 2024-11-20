@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_timeline_fixer"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_timeline_fixer"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	"github.com/sirupsen/logrus"
 
 	"github.com/urfave/cli/v2"

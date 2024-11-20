@@ -3,7 +3,7 @@ package sub_share_center
 import (
 	"crypto/tls"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	goMail "gopkg.in/mail.v2"
 )
 

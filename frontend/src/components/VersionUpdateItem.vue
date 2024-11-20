@@ -42,10 +42,7 @@
             <div>
               参考教程
               <!-- eslint-disable-next-line max-len -->
-              <a
-                href="https://github.com/ChineseSubFinder/ChineseSubFinder/blob/master/docker/readme.md"
-                target="_blank"
-              >
+              <a href="https://github.com/An-Yan-d/ChineseSubFinder/blob/master/docker/readme.md" target="_blank">
                 Docker部署教程
               </a>
             </div>
@@ -82,14 +79,12 @@ const hasNewVersion = computed(() => {
 
 const getLatestVersion = async () => {
   try {
-    const data = await fetch('https://api.github.com/repos/ChineseSubFinder/ChineseSubFinder/releases/latest').then(
-      (res) => {
-        if (res.ok) {
-          return res.json();
-        }
-        return Promise.reject(res);
+    const data = await fetch('https://api.github.com/repos/An-Yan-d/ChineseSubFinder/releases/latest').then((res) => {
+      if (res.ok) {
+        return res.json();
       }
-    );
+      return Promise.reject(res);
+    });
     latestVersion.value = data;
     // 接口请求速率过高有可能403，本地存一份
     LocalStorage.set('latestVersion', data);

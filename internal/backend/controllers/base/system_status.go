@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	running "github.com/allanpk716/is_running_in_docker"
 	"github.com/gin-gonic/gin"
 )

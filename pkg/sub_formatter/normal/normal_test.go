@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
 
-	subCommon "github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter/common"
+	subCommon "github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter/common"
 )
 
 func TestFormatter_GetFormatterName(t *testing.T) {

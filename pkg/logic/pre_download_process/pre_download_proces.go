@@ -3,25 +3,25 @@ package pre_download_process
 import (
 	"errors"
 	"fmt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/local_http_proxy_server"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/subtitle_best"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/local_http_proxy_server"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/subtitle_best"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	common2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
+	common2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
-	subSupplier "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/a4k"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/assrt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/shooter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/xunlei"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
+	subSupplier "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/a4k"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/assrt"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/shooter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/xunlei"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/notify_center"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/something_static"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/url_connectedness_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/notify_center"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/something_static"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/url_connectedness_helper"
 	"github.com/sirupsen/logrus"
 )
 

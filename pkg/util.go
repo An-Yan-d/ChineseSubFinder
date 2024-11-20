@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/local_http_proxy_server"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/local_http_proxy_server"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/regex_things"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/regex_things"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	browser "github.com/allanpk716/fake-useragent"
 	"github.com/go-resty/resty/v2"
 	"github.com/google/uuid"

@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/cache_center/models"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/cache_center/models"
 )
 
 func (c *CacheCenter) TaskQueueClear() error {

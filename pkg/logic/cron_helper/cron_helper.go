@@ -1,18 +1,18 @@
 package cron_helper
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/internal/dao"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
-	//"github.com/ChineseSubFinder/ChineseSubFinder/internal/logic/pre_job"
+	"github.com/An-Yan-d/ChineseSubFinder/internal/dao"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
+	//"github.com/An-Yan-d/ChineseSubFinder/internal/logic/pre_job"
 	"sync"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/downloader"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_formatter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/task_queue"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/downloader"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_formatter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/task_queue"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/video_scan_and_refresh_helper"
 	"github.com/robfig/cron/v3"
 	"github.com/sirupsen/logrus"
 )

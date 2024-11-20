@@ -3,10 +3,10 @@ package cache_center
 import (
 	"testing"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/language"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/supplier"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/language"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/supplier"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
 )
 
 func TestCacheCenter_DownloadFileAdd(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/get_access_time"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/get_access_time"
 	"github.com/sirupsen/logrus"
 )
 

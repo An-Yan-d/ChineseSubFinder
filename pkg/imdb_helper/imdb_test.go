@@ -1,15 +1,15 @@
 package imdb_helper
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/local_http_proxy_server"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/log_helper"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/media_info_dealers"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/random_auth_key"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/subtitle_best_api"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/tmdb_api"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/local_http_proxy_server"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/log_helper"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/media_info_dealers"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/random_auth_key"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/subtitle_best_api"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/tmdb_api"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types"
 	"testing"
 )
 

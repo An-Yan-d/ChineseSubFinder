@@ -1,21 +1,21 @@
 package base
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/subtitle_best"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/subtitle_best"
 	"net/http"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/local_http_proxy_server"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/local_http_proxy_server"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/a4k"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/a4k"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	subSupplier "github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/assrt"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/shooter"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/sub_supplier/xunlei"
+	subSupplier "github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/assrt"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/shooter"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/sub_supplier/xunlei"
 
 	"github.com/gin-gonic/gin"
 )

@@ -8,23 +8,23 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg"
 
-	common2 "github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/series"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/supplier"
+	common2 "github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/series"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/supplier"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/mix_media_info"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/mix_media_info"
 	"github.com/Tnze/go.num/v2/zh"
 	"github.com/go-resty/resty/v2"
 	"github.com/jinzhu/now"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
 
 	"github.com/PuerkitoBio/goquery"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	"github.com/sirupsen/logrus"
 )
 

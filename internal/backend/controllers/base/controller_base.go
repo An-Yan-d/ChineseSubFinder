@@ -1,14 +1,14 @@
 package base
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/pre_job"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/pre_job"
 	"net/http"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/lock"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/lock"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/backend"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/backend"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/logic/file_downloader"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/logic/file_downloader"
 	"github.com/gin-gonic/gin"
 )
 

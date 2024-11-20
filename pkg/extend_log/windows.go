@@ -3,7 +3,7 @@
 package extend_log
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/settings"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/settings"
 	"github.com/sirupsen/logrus"
 )
 

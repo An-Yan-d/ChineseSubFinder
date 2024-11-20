@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/common"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/emby"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/common"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/emby"
 
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/decode"
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/sub_file_hash"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/decode"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/sub_file_hash"
 	"github.com/araddon/dateparse"
 )
 

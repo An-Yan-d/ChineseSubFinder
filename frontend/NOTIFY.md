@@ -9,7 +9,7 @@
 - 请开启 SubtitleBest 字幕源设置，缓解字幕下载的问题；
 
 ## 初次使用
-- 第一次使用，请务必阅读：[电影和连续剧目录结构示例](https://github.com/ChineseSubFinder/ChineseSubFinder/blob/docs/DesignFile/电影和连续剧目录结构示例.md)、[连续剧目录结构要求](https://github.com/ChineseSubFinder/ChineseSubFinder/blob/docs/DesignFile/连续剧目录结构要求.md)，按要求填写电影和连续剧的目录；
+- 第一次使用，请务必阅读：[电影和连续剧目录结构示例](https://github.com/An-Yan-d/ChineseSubFinder/blob/docs/DesignFile/电影和连续剧目录结构示例.md)、[连续剧目录结构要求](https://github.com/An-Yan-d/ChineseSubFinder/blob/docs/DesignFile/连续剧目录结构要求.md)，按要求填写电影和连续剧的目录；
 - 使用本程序的前提：必须是**削刮**过的媒体库，否则无法正常使用；
 - 媒体库如果是**软连接**挂载，目前反馈是无法正常使用的，建议使用硬链接（作者没有相关环境和使用经验，期待有人提交修复方案）；
 - 如果媒体库是远程的网盘，那么请不要开启“字幕时间轴矫正”功能；

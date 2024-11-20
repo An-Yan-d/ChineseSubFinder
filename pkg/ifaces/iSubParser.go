@@ -1,7 +1,7 @@
 package ifaces
 
 import (
-	"github.com/ChineseSubFinder/ChineseSubFinder/pkg/types/subparser"
+	"github.com/An-Yan-d/ChineseSubFinder/pkg/types/subparser"
 )
 
 type ISubParser interface {
