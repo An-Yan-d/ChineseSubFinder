@@ -117,7 +117,7 @@ func GetIMDBInfoFromVideoNfoInfo(dealers *media_info_dealers.Dealers, videoNfoIn
 			Preload("VideoSubInfos").
 			Limit(1).Where(&models.IMDBInfo{TmdbId: videoNfoInfo.TmdbId}).Find(&imdbInfos)
 
-		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 1)
+		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 5)
 
 		if len(imdbInfos) <= 0 {
 			// 没有找到那么就从 Web 端获取 imdb id 信息
@@ -125,22 +125,22 @@ func GetIMDBInfoFromVideoNfoInfo(dealers *media_info_dealers.Dealers, videoNfoIn
 			// 如果找到多个，那么就应该删除这些，因为这些都是重复的，然后再次从 Web 去获取 imdb id 信息
 			dao.GetDb().Where(&models.IMDBInfo{TmdbId: videoNfoInfo.TmdbId}).Delete(&models.IMDBInfo{})
 		} else {
-			dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 4)
+			dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 6)
 			// 找到
 			return &imdbInfos[0], nil
 		}
 		// 确定需要从 Web 端获取 imdb id 信息
-		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 2)
+		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 7)
 		// 联网查询
 		idConvertReply, err := dealers.ConvertId(videoNfoInfo.TmdbId, "tmdb_id", videoNfoInfo.IsMovie)
 		if err != nil {
 			return nil, err
 		}
-		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 3)
+		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 8)
 		// 存入数据库
 		nowIMDBInfo := models.NewIMDBInfo(idConvertReply.ImdbID, "", 0, "", []string{}, []string{})
 		dao.GetDb().Create(nowIMDBInfo)
-		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 4)
+		dealers.Logger.Debugln("GetIMDBInfoFromVideoNfoInfo", 9)
 		return nowIMDBInfo, nil
 
 	} else {
